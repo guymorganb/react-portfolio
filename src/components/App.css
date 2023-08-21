@@ -1,32 +1,145 @@
+/************Color Pallet*****************/
+:root {
+  --dark: #006d77;
+  --medium: #83c5be;
+  --beige:#edf6f9;
+  --light: #ffddd2;
+  --mediumLight: #e29578;
+}
+/************Color Pallet*****************/
+/************Nav & Header*****************/
 .App {
   text-align: center;
+  background-color: #006d77;
 }
 .navbar-banner {
   width: 100%;   /* Make it full width */
-  background-color: #333; /* Set a background color */
+  height:20vh;
   color: white;  /* Set a text color */
-  width: 100%; 
-  background-color: #333; 
-  color: white;  
+  background-color: var(--dark);
   padding: 1em; 
   z-index: 1000;  /* Ensures it stays on top of other content */
   padding-bottom: 8px;
 }
-/************Footer*****************/
-@keyframes hueRotate {
-  0% {
-    filter: hue-rotate(0deg);
+/************Nav & Header******************/
+/************MiddleSection*****************/
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: var(--beige);
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  width: 50%; 
+  height: 70vh;
+  margin-right: 0;
+}
+
+.text {
+  width: 50%; 
+  margin-right: 10px;
+}
+
+.portrait {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 3px solid var(--mediumLight);
+}
+
+@media (max-width: 768px) { 
+  .content-container {
+    flex-direction: column;  /* Stack children vertically */
   }
-  100% {
-    filter: hue-rotate(360deg);
+
+  figure, .text {
+    width: 100%; 
+  }
+
+  figure {
+    margin-right: 0;
+    margin-bottom: 10px;  /* Space between the image and the text on smaller screens */
   }
 }
+/************Porfolio*****************/
+.Portfolio {
+  display: block;
+  padding: 15px;
+  justify-content: center;
+  background-color: var(--beige);
+}
+
+/* Individual project container */
+.projectContainer {
+  display: flex;
+  height: 15vh;
+  flex-direction: column;
+  border: 3px solid #83c5be;
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/* Project link styling */
+.projectContainer a {
+  display: flex;
+  justify-content: space-between; /* evenly space content */
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.title-wrapper, .label, .projectContainer img {
+  flex-basis: calc(1% - 10px); 
+}
+
+/* Image styling */
+.projectContainer img {
+  max-width: 10vw; 
+  max-height: 10vh; 
+  object-fit: cover; 
+  margin-left: 10px; /* space between the label and the image */
+}
+
+/* Label containing title and tech stack */
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* align to the left */
+  flex-grow: 2; /* take available space */
+}
+
+.projectContainer h3{
+  display: flex;
+  padding-left: 18px;
+}
+
+.title-wrapper {
+  flex-grow: 1;
+}
+
+.projectContainer span {
+  flex-grow: 1; 
+  font-size: 0.9rem;
+  text-align: left; /* center the tech stack */
+  padding: 10px;
+  max-width: 10vw;
+}
+
+/************Porfolio*****************/
+/************MiddleSection*****************/
+/************Footer************************/
 footer {
   display: flex;
   flex-direction: column;
-  background-color: beige;
+  background-color:var(--beige);
   padding: 8px;
   animation: hueRotate 5s infinite; /* 10s means the rotation will take 10 seconds. Adjust as needed. */
+  overflow: hidden;
 }
 .icon{
   padding: 8px;
@@ -41,7 +154,15 @@ footer {
   }
 }
 .App-link {
-  color: #61dafb;
+  color: var(--medium);
+}
+@keyframes hueRotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
 @keyframes App-logo-spin {
   from {
@@ -70,6 +191,7 @@ footer {
 }
 .typewriter-text {
   display: inline-block;
+  height: 1.2em;
   overflow: hidden;
   white-space: nowrap;
   letter-spacing: 0.15em;
@@ -81,5 +203,171 @@ footer {
   max-width: 100%;
 }
 /**TypeWriter**/
-/************Footer*****************/
+/************Footer************************/
+/************Slider************************/
+#Social {
+  display: flex;
+  place-content: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+#activator {
+    padding: 1em;
+    border: 3px solid var(--dark);
+    box-shadow: 0 0 10px var(--medium);
+    border-radius: 100%;
+    background-color: var(--beige); /* Updated background */
+}
+
+.activator:hover {
+    cursor: pointer;
+    background-color: var(--mediumLight);
+}
+
+.activator {
+    width: 100%;
+    max-width: 90px;
+}
+
+#slideBar {
+    background: linear-gradient(var(--dark), var(--medium));
+    border-radius: 0 5em 5em 0;
+    padding: .5em;
+    clip-path: ellipse(50% 50% at -50% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slideBar ul {
+    display: flex;
+    flex-direction: row; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.nav-button button {
+    padding: 0.5em 1em; 
+    margin: 0.2em;
+    background: var(--beige); /* Using the beige for button background */
+    border: 2px solid var(--dark); /* Dark border for contrast */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .3s, transform 0.2s;
+    font-size: 1em;
+    color: var(--dark); /* Dark text for better contrast */
+    white-space: nowrap;
+}
+
+.nav-button button:hover {
+    background: var(--mediumLight); 
+    transform: scale(1.05);
+    color: var(--beige); /* Light text on hover for contrast */
+}
+/************Slider************************/
+/************Form************************/
+:root {
+  --dark: #006d77;
+  --medium: #83c5be;
+  --beige: #edf6f9;
+  --light: #ffddd2;
+  --mediumLight: #e29578;
+}
+
+#Contact {
+  background-color: var(--beige);
+  padding: 40px 0;
+}
+
+.formcontainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: var(--medium);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 109, 119, 0.1);
+}
+
+.formcontainer h2 {
+  text-align: center;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+
+.formcontainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formcontainer div {
+  margin-bottom: 15px;
+}
+
+.formcontainer label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--dark);
+  font-weight: bold;
+}
+
+.formcontainer input[type="text"],
+.formcontainer textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid var(--medium);
+  border-radius: 5px;
+  background-color: white;
+  color: var(--dark);
+  transition: border-color 0.3s;
+}
+
+.formcontainer input[type="text"]:focus,
+.formcontainer textarea:focus {
+  border-color: var(--dark);
+  outline: none;
+}
+
+.formcontainer span {
+  color: #ff0000;  /* A standard red color for required field asterisks */
+  margin-left: 5px;
+}
+
+.formcontainer #buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formcontainer input[type="button"] {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: var(--light);
+}
+
+.formcontainer #register {
+  background-color: var(--dark);
+}
+
+.formcontainer #register:hover {
+  background-color: var(--mediumLight);
+}
+
+.formcontainer #reset_form {
+  background-color: var(--dark);
+}
+
+.formcontainer #reset_form:hover {
+  background-color: var(--mediumLight);
+}
+
+/************Form************************/
+
 

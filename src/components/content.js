@@ -1,22 +1,26 @@
 import React from "react";
+import AboutMe from "./aboutMe";
+import Contact from "./contact";
+import Portfolio from "./portfolio";
 
-export default function Content ({ activeSection }) {
+
+export default function Content({ activeSection }) {
     if (activeSection === 'home') {
-        return <div>Home Content</div>;
-        } 
-        else if (activeSection === 'AboutMe') {
-        return <div>About Content</div>;
-        } 
-        else if (activeSection === 'Porfolio') {
-        return <div>Contact Content</div>;
-        } 
-        else if (activeSection === 'Contact') {
-        return <div>About Content</div>;
-        } 
-        else if (activeSection === 'Resume') {
-        return <div>Contact Content</div>;
-        } 
-        else {
+        return <div>Home content</div>;
+    } 
+    else if (activeSection === 'AboutMe') {
+        return <AboutMe />;
+    } 
+    else if (activeSection === 'Portfolio') {
+        return <Portfolio />
+    } 
+    else if (activeSection === 'Contact') {
+        return <Contact />;
+    } 
+    else if (activeSection === 'Resume') {
+        return <div>Download Resume</div>;
+    } 
+    else {
         return null;
-        }
+    }
 }
