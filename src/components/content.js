@@ -2,11 +2,13 @@ import React from "react";
 import AboutMe from "./aboutMe";
 import Contact from "./contact";
 import Portfolio from "./portfolio";
+import HomePage from "./home";
+import ResumePage from "./resume";
 
 
 export default function Content({ activeSection }) {
     if (activeSection === 'home') {
-        return <div>Home content</div>;
+        return <HomePage />;
     } 
     else if (activeSection === 'AboutMe') {
         return <AboutMe />;
@@ -18,7 +20,7 @@ export default function Content({ activeSection }) {
         return <Contact />;
     } 
     else if (activeSection === 'Resume') {
-        return <div>Download Resume</div>;
+        return <ResumePage />;
     } 
     else {
         return null;

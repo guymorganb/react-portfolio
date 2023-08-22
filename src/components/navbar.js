@@ -1,19 +1,3 @@
-// import React from "react";
-
-// export default function Navbar ({ activeSection, setActiveSection }) {
-//     return(
-//         <div className="navbar-banner">
-//             <nav>
-//                 <button onClick={() => setActiveSection("home")}>Home</button>
-//                 <button onClick={() => setActiveSection("AboutMe")}>About Me</button>
-//                 <button onClick={() => setActiveSection("Porfolio")}>Porfolio</button>
-//                 <button onClick={() => setActiveSection("Contact")}>Contact</button>
-//                 <button onClick={() => setActiveSection("Resume")}>Resume</button>
-//             </nav>
-//         </div>
-//     )
-// }
-
 import React, { useEffect } from "react";
 import gsap from "gsap";
 
@@ -21,11 +5,12 @@ import gsap from "gsap";
 export default function Navbar({ activeSection, setActiveSection }) {
     useEffect(() => {
         const card = document.querySelector('.activator');
-        const tl = gsap.timeline({ defaults: { ease: "power2.inOut" } });
+        const tl = gsap.timeline({ defaults: { ease: "power1.inOut" } });
         
         let toggle = false;
         
         tl.to('.activator', {
+            duration: 1,
             background: 'linear-gradient(#006d77 0%, #e29578 100%)',
             borderRadius: '5em 0 0 5em',
             boxShadow: '0 0 3em #e29578, -10px 10px 2em #83c5be',

@@ -46,37 +46,34 @@ const projects = [
 
 function Project({ project }) {
     return (
-        <article className="projectContainer">
-            <div>
-                <a href={project.title} id={project.title.replace(" ", "-")}>
+        <article className="projectContainer" title={project.description}>
+            <div className="containerDiv">
+                <a href={project.url} id={project.title.replace(" ", "-")}>
                     <div className="title-wrapper">
                         <h3>{project.title}</h3>
                     </div>
                     <div className="label" data-id={project.description}>
-                        <strong>Description:</strong><span>{project.description}</span><strong>TechStack:</strong><span>{project.techStack}</span>
+                    <div className="TS"><strong>TechStack:</strong>{project.techStack}</div>
                     </div>
+                    <div className="imgWrapper">
                     <img src={project.image} alt={project.title} /> {/* Keep the image as the last element */}
+                    </div>
                 </a>
             </div>
         </article>
     );
 }
 
-
-
-
-function Portfolio (){
+function Portfolio() {
     return (
         <section className="Portfolio">
-            <aside>
-                <div className="portfolio">
-                    <h2>Portfolio</h2>
-                </div>
-            </aside>
-            
-            {projects.map(project => <Project key={project.title} project={project} />)}
+            <h1 className="portfolio-header">Portfolio</h1>
+            <div className="projects-grid">
+                {projects.map(project => <Project key={project.title} project={project} />)}
+            </div>
         </section>
     );
 }
+
 
 export default Portfolio;

@@ -39,29 +39,26 @@ export default function AboutMe(){
             <div className="p">
             <p></p>
             <ol>
+                Being a sucessful small business entrapanuer for 10 years taught me a multitude
+                things including how to work with others, client relationship managment,
+                goal setting as a professional, about reaching milestones and many more, 
+                but the greatest lessons were those I learned about myself, and what makes me the best version of me.
                 I became a developer to create innovative tools which enhance people's
-                lives. After 7 years as a business leader, I embraced my appetite for
-                continuous learning and a desire to create. A year after selling my
-                business, I have completed my full-stack development certification at
-                the University of Denver and am ready to take on my first role as a
+                lives. I sold my business to embraced my appetite for continuous learning and need to create. 
+                A year after selling my business, I have completed my full-stack development 
+                certification at the University of Denver and am ready to secure a role as a
                 Developer.
                 <br />
-                <br />I look forward to working collaboratively with a team that is
-                inspired by their company’s vision and leverages innovative tools
-                which enhance life for clients and users alike!.
+                <br />Working collaboratively with a team excites me, one that is
+                inspired by their company’s vision and leverages cutting edge tools
+                to enhance life for clients and users!.
             </ol>
             <br />
-            <ol>My Skills:</ol>
-            <ol>
-                💥JavaScript ES6+, jQuery, Nodejs, Expressjs, Bootstrap, Tailwind CSS,
-                React, MongoDB, MySQL, SQL, HTML5, CSS3, Agile, UI/UX (User
-                Interface/User Experience), GitHub, Figma, Miro, Promises, API,
-                (Application Program Interface), CCC1, AutoDesk, Excel, Word,
-                Programming, Teamwork, Critical Thinking, Problem Solving, RestFul
-                API, Windows, MAC, Linux, Java, Docker, Python
-            </ol>
-            <br />
-            <ol>My Superpowers:</ol>
+            <div className="h2">
+            <b>
+            <h2>Soft Skills</h2>
+            </b>
+            </div>
             <ol>
                 ⭐ Working with business clients to meet exacting needs on tight
                 timelines.
