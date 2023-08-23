@@ -14,7 +14,7 @@
 
 > Porfolio and personal single page application built with React
 
-### 🏠 [Homepage](https://github.com/guymorganb/react-porfolio)
+### 🏠 [Homepage](www.guymorganb.com)
 ### ✨ [Screenshot](https://github.com/guymorganb/react-portfolio/blob/main/src/assets/Screenshot%202023-08-23%20at%2010.02.37%20AM.png?raw=true)
 
 ## Usage
