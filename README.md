@@ -12,9 +12,10 @@
   </a>
 </p>
 
-> A simple API using MongoDB & Mongoose
+> Porfolio and personal single page application built with React
 
 ### 🏠 [Homepage](https://github.com/guymorganb/react-porfolio)
+### ✨ [Screenshot](https://github.com/guymorganb/react-portfolio/blob/main/src/assets/Screenshot%202023-08-23%20at%2010.02.37%20AM.png?raw=true)
 
 ## Usage
 
