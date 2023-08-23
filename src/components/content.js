@@ -6,9 +6,9 @@ import HomePage from "./home";
 import ResumePage from "./resume";
 
 
-export default function Content({ activeSection }) {
+export default function Content({ activeSection, linkedin, instagram, github }) {
     if (activeSection === 'home') {
-        return <HomePage />;
+        return <HomePage linkedin={linkedin} instagram={instagram} github={github} />;
     } 
     else if (activeSection === 'AboutMe') {
         return <AboutMe />;

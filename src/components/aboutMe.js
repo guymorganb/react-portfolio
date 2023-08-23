@@ -39,38 +39,31 @@ export default function AboutMe(){
             <div className="p">
             <p></p>
             <ol>
-                Being a sucessful small business entrapanuer for 10 years taught me a multitude
-                things including how to work with others, client relationship managment,
-                goal setting as a professional, about reaching milestones and many more, 
-                but the greatest lessons were those I learned about myself, and what makes me the best version of me.
-                I became a developer to create innovative tools which enhance people's
-                lives. I sold my business to embraced my appetite for continuous learning and need to create. 
-                A year after selling my business, I have completed my full-stack development 
-                certification at the University of Denver and am ready to secure a role as a
-                Developer.
-                <br />
-                <br />Working collaboratively with a team excites me, one that is
-                inspired by their company’s vision and leverages cutting edge tools
-                to enhance life for clients and users!.
+            As an entrepreneur with a decade of success in the realm of small businesses, I've garnered a wealth of invaluable experiences. This journey has equipped me with a diverse skill set encompassing effective teamwork, adept client relationship management, goal-driven professionalism, and the achievement of significant milestones. However, the true enlightenment lies in the insights I've gained about my own identity and the essence of personal excellence.
+            
+            My venture into the world of development was driven by an ardent desire for perpetual growth and the pursuit of creativity. This pivotal shift prompted me to part ways with my business, channeling my fervor into the realm of continuous learning and innovation. A year after divesting my entrepreneurial pursuits, I achieved comprehensive proficiency by completing a rigorous full-stack development certification program at the University of Denver. With these credentials in hand, I stand primed to embark on my new role as a dedicated Developer.
             </ol>
             <br />
-            <div className="h2">
+            <div className="h2lower">
             <b>
             <h2>Soft Skills</h2>
             </b>
             </div>
             <ol>
-                ⭐ Working with business clients to meet exacting needs on tight
-                timelines.
+            ⭐ **Client-Centric Collaboration:** Drawing from my entrepreneurial background, I've mastered the art of harmonizing exacting client requirements within tight timeframes. This proficiency enables me to not only grasp clients' objectives but also navigate intricate challenges seamlessly, resulting in tailored solutions that surpass expectations.
             </ol>
+            <br></br>
             <ol>
-                ⭐ Developing strong co-working relationships to collaborate and
-                deliver exceptional solutions.
+            ⭐ **Exemplary Interpersonal Proficiency:** Cultivating robust relationships with colleagues is a cornerstone of my professional ethos. Through fostering open communication and nurturing mutual respect, I create an environment conducive to streamlined collaboration and the achievement of remarkable solutions.
             </ol>
-            <ol>⭐ Setting and meeting high expectations. </ol>
-            <ol>⭐ Challenging myself and others to learn, grow, and innovate.</ol>
-            <ol>⭐ Meeting deadlines.</ol>
-            <ol>⭐ Approaching problems with curiosity, humility, and tenacity.</ol>
+            <br></br>
+            <ol>⭐ **Pursuit of excellence:** The pursuit of excellence defines my professional trajectory. By setting and exceeding standards for myself and my peers, I cultivate a culture of continuous enhancement and commitment to delivering exceptional results.</ol>
+            <br></br>
+            <ol> ⭐ **Catalyst for Growth and Innovation:** My propensity for fostering personal and professional advancement fuels curiosity and innovation by challenging myself and inspiring others.</ol>
+            <br></br>
+            <ol> ⭐ **Reliability and Adherence:** My commitment to project deadlines is stedfast, approaching each commitment with dedicated resolve to ensure on-time and on-target delivery.</ol>
+            <br></br>
+            <ol>⭐ **Resilience and Problem Solving:** Confronting challenges with a blend of inquisitiveness, humility, and resolve, I analyze issues from multiple angles. This approach allows me to leverage problem-solving to engineer creative resolutions, persistently driving toward success.</ol>
             <p />
             </div>
         </div>

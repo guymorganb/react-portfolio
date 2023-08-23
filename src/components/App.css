@@ -39,6 +39,7 @@ figure {
 .text {
   width: 50%;
   margin-right: 10px;
+  display: block
 }
 
 .portrait {
@@ -47,6 +48,18 @@ figure {
   object-fit: cover;
   border-radius: 15px;
   border: 3px solid var(--mediumLight);
+}
+.p{
+  text-align: left;
+  padding-left: 15px;
+}
+.h2{
+  text-align: left;
+  padding-left: 10%;
+}
+.h2lower{
+  text-align: left;
+  padding-left: 8%;
 }
 
 @media (max-width: 768px) {
@@ -80,107 +93,25 @@ figure {
   text-align: center;
 }
 
-.projects-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  width: 90%;
-}
-
 .projectContainer {
-  display: flex;
-  flex-direction: column;
-  height: 15vh;
-  border: 3px solid #83c5be;
-  justify-content: center;
-  padding: 15px;
+  flex-basis: calc(50% - 10px); /* Assuming the gap is 10px */
+  border: solid #006d77;
   border-radius: 10px;
-  max-width: 40%;
-  flex-grow: 2;
-  flex-shrink: 1;
 }
 
-.containerDiv{
+.cardImage{
   display: flex;
-  max-width: 80%;
+  justify-content: center;
+  object-fit: cover;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.cardFooter{
+  display: flex;
   justify-content: space-between;
-  
 }
 
-/* Project link styling */
-.projectContainer a {
-  display: flex;
-  justify-content: space-between; /* evenly space content */
-  align-items: center;
-  text-decoration: none;
-  max-width: 90%;
-}
-
-
-/* Image styling */
-.projectContainer img {
-  max-width: 10vw; 
-  max-height: 10vh; 
-  object-fit: cover; 
-  margin-left: 10px; /* space between the label and the image */
-}
-
-
-/* Label containing tech stack */
-.label {
-  display: flex;
-  max-width: 90%;
-  flex-direction: row;
-  align-items: flex-start; /* align to the left */
-  flex-grow: 1; /* take available space */
-  flex-wrap: wrap; /* Allow the items inside .label to wrap */
-  gap: 5px; /* Provide some space between the labels */
-}
-
-.label strong {
-  margin-right: 5px; /* Provide some space between strong tag and the content in span */
-}
-
-
-.projectContainer h3 {
-  margin: 0; /* Remove any default margin */
-  padding: 8px;
-}
-
-.title-wrapper {
-  flex-grow: 1;
-}
-
-.TS {
-  overflow-wrap: break-word;
-  flex-grow: 1; 
-  font-size: 0.9rem;
-  text-align: left; /* center the tech stack */
-  padding: 10px;
-  max-width: 10vw;
-}
-
-@media (max-width: 1700px) {
-  .projects-grid {
-      flex-direction: column; /* Stack the projects vertically */
-  }
-  
-  .projectContainer {
-      max-width: 100%;
-      display: flex;           /* Make it a flex container */
-      justify-content: center; /* Center the containerDiv horizontally */
-  }
-  
-  .containerDiv {
-      display: flex;
-      max-width: 100%;
-      justify-content: space-evenly; /* Evenly space the children */
-  }
-  .TS {
-    max-width: 70%;  /* Give more width to TechStack */
-}
-
-}
 /************ Footer ************/
 footer {
   display: flex;
