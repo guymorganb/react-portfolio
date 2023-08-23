@@ -7,7 +7,7 @@
   <a href="https://github.com/guymorganb/react-portfolio/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/guymorganb/react-portfolio/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/guymorganb/react-portfolio/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/guymorganb/socialnetwork-api" />
   </a>
 </p>
@@ -41,7 +41,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2023 [guymorganb](https://github.com/guymorganb).<br />
-This project is [MIT](https://github.com/guymorganb/react-porfolio/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/guymorganb/react-portfolio/blob/main/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
