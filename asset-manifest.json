@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.284805fa.css",
+    "main.js": "/react-portfolio/static/js/main.0e1f2d76.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/pet-search.png": "/react-portfolio/static/media/pet-search.4f37822076d86e44f9b6.png",
+    "static/media/CMA.png": "/react-portfolio/static/media/CMA.d566d56e7b34614e45b0.png",
+    "static/media/Third.jpeg": "/react-portfolio/static/media/Third.a392a4e327de3523ba54.jpeg",
+    "static/media/Notes_with_Express.png": "/react-portfolio/static/media/Notes_with_Express.62ad2f1c80d4254b53a3.png",
+    "static/media/techBlog.png": "/react-portfolio/static/media/techBlog.670d8242b5e9a23f9e34.png",
+    "static/media/First.jpeg": "/react-portfolio/static/media/First.7a24d60e5fd8709bf651.jpeg",
+    "static/media/WeatherApp.png": "/react-portfolio/static/media/WeatherApp.274c500dec9f3f16b315.png",
+    "static/media/BACE9530-AC69-4601-9E22-FD02DEDAB49E.jpeg": "/react-portfolio/static/media/BACE9530-AC69-4601-9E22-FD02DEDAB49E.d01438d09420eec79b9c.jpeg",
+    "static/media/Beals_Guy_Res_Final1.pdf": "/react-portfolio/static/media/Beals_Guy_Res_Final1.aa6b0bbc78392b83dec3.pdf",
+    "static/media/BF6E9B4A-C1DA-4B8E-BE66-A0B4E6483028.jpeg": "/react-portfolio/static/media/BF6E9B4A-C1DA-4B8E-BE66-A0B4E6483028.6bd24d83cafbc6c662b9.jpeg",
+    "static/media/D3912183-8655-44B5-9764-4C30329C8E58.jpeg": "/react-portfolio/static/media/D3912183-8655-44B5-9764-4C30329C8E58.925aa43f0f7d11e5c3e7.jpeg",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.284805fa.css.map": "/react-portfolio/static/css/main.284805fa.css.map",
+    "main.0e1f2d76.js.map": "/react-portfolio/static/js/main.0e1f2d76.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.284805fa.css",
+    "static/js/main.0e1f2d76.js"
+  ]
+}
