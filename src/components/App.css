@@ -266,7 +266,7 @@ footer {
 
 .formcontainer h2 {
   text-align: center;
-  color: var(--dark);
+  color: var(--beige);
   margin-bottom: 20px;
   font-size: xx-large;
 }
@@ -294,7 +294,7 @@ footer {
   padding: 10px;
   border: 2px solid var(--medium);
   border-radius: 5px;
-  background-color: white;
+  background-color:var(--beige);
   color: var(--dark);
   transition: border-color 0.3s;
 }
@@ -316,7 +316,7 @@ footer {
   align-items: center;
 }
 
-.formcontainer input[type="button"] {
+.formcontainer input[type="button"], input[type='submit'] {
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
@@ -339,6 +339,30 @@ footer {
 
 .formcontainer #reset_form:hover {
   background-color: var(--mediumLight);
+}
+.error-text{
+  color: var(--beige);
+  font-size: large;
+}
+.spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 4px solid var(--light); /* Color of the spinner */
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 /************Form************************/
 /************Home************************/

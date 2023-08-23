@@ -7,11 +7,11 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 const HomePage = ({instagram, linkedin, github}) => {
     const skills = [
         "JavaScript ES6+", "jQuery", "Nodejs", "Expressjs", "Bootstrap", 
-        "Tailwind CSS", "React", "MongoDB", "Mongoose", "MySQL", "PostGresSQL", "Sequelize", "HTML5", "CSS3", "GitHub", "Figma", 
-        "Miro", "AutoDesk", 
-        "ChatGpt", "RestFul API", "Windows", "MAC", "Linux", 
-        "Java", "Docker", "Python", "PWA", "Graph-QL", "Apollo Server", 
-        "Webpack", "GSAP", "GoogleWorkbox", "NodeMailer", "UUID", "Mailgun", "Palm2"
+        "Tailwind CSS", "React", "MongoDB", "Mongoose", "MySQL", "PostGresSQL", 
+        "Sequelize", "HTML5", "CSS3", "GitHub", "Figma", "Miro", "AutoDesk",
+        "ChatGpt", "RestFul API", "Windows", "MAC", "Linux", "Java", "Docker",
+        "Python", "PWA", "Graph-QL", "Apollo Server", "Webpack", "GSAP", 
+        "GoogleWorkbox", "NodeMailer", "UUID", "Mailgun", "Palm2", "Multer","Emailjs"
     ];
 
     const getIconForSkill = (skill) => {
@@ -88,7 +88,10 @@ const HomePage = ({instagram, linkedin, github}) => {
                 return <img src="https://plugins.jetbrains.com/files/8320/140213/icon/pluginIcon.svg" alt="UUID" className="skill-icon"/>;
             case "Palm2":
                 return <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsZn2xhHdwIlBoiEt00eMqXeSuNBzq-3q9yEAaXmrY6SSf7UNIycFxlu_4XlauPAsSR_c&usqp=CAU" alt="Palm2" className="skill-icon"/>;
-                
+            case "Multer":
+                return <img src="https://www.riafan.com/uploads/icons/upload-multer.svg" alt="Multer" className='skill-icon'/>
+            case "Emailjs":
+                return <img src="https://blog.openreplay.com/images/sending-emails-from-react-with-emailjs/images/hero.png" alt="Multer" className='skill-icon'/>
             default:
                 return null;
 
@@ -99,7 +102,7 @@ const HomePage = ({instagram, linkedin, github}) => {
         <div className="home-page bg-gray-100 min-h-screen p-6 flex items-center justify-center">
             <div className="card-container max-w-xl w-full bg-white p-6 rounded-lg shadow-md mb-10">
                 <span className="pro block text-sm mb-2"></span>
-                <img className="rounded w-40 h-32 mx-auto mb-4" src={profileImage} alt="Mikael Kaya" />
+                <img className="rounded w-40 h-32 mx-auto mb-4" src={profileImage} alt="guy beals" />
                 <h3 className="text-center text-2xl font-bold mb-1">Guy Beals</h3>
                 <h6 className="text-center text-sm text-gray-500 mb-4">South Texas</h6>
                 <p className="text-center text-gray-700 mb-4">CS Student 🎓 entrapanuer 📈 human 👤 son 👪 brother 👪 lover of learning 🌎. Despite calculus ∫∫ and physics λ, still believes in magic ✨<br />aspiring full-stack developer</p>
