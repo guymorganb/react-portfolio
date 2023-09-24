@@ -20,7 +20,7 @@ function App() {
       <Footer 
       github="https://github.com/guymorganb"
       linkedin="https://www.linkedin.com/in/guymorganb/"
-      instagram="https://www.instagram.com/learn.fullstack.dev/"
+      instagram="https://www.instagram.com/zero.to.fullstack/"
       spotify="https://open.spotify.com/user/12151690322">
       <span className="typewriter-text">A React App</span>
       <img src={logo} alt="Logo" className="App-logo" />
