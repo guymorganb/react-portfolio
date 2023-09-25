@@ -14,7 +14,7 @@ function App() {
       <Navbar activeSection={activeSection} setActiveSection={setActiveSection}/>
       <Content activeSection={activeSection}
          linkedin="https://www.linkedin.com/in/guymorganb/"
-         instagram="https://www.instagram.com/learn.fullstack.dev/"
+         instagram="https://www.instagram.com/zero.to.fullstack/"
           github="https://github.com/guymorganb" 
           />
       <Footer 
