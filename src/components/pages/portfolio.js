@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import CMA from '../../assets/CMA.png'
-import petSearch from '../../assets/pet-search.png'
 import PWA from '../../assets/PWA.png'
 import RRX from '../../assets/RRX.png'
 import techBlog from '../../assets/techBlog.png'
@@ -13,7 +12,7 @@ const projects = [
     {
         title: "The Tech Blog",
         url: "https://cms-styleblog-b43fd1e13c1e.herokuapp.com/",
-        description: "Blog that authenticates users, & allows profile interaction",
+        description: "Fullstack Blog that authenticates users, & allows profile interaction",
         techStack: "BootstrapCSS,Express,Express-Handlebars,Heroku,HTML,Javascript,JawsDB,MySQL2,Node,Sequelize,UUID",
         image: techBlog
     },
@@ -91,7 +90,7 @@ function Project({ project }) {
 function Portfolio() {
     return (
         <section className="Portfolio">
-            <h1 className="portfolio-header">Portfolio</h1>
+            <h1 className="portfolio-header">Portfolio : most interesting work so far</h1>
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {projects.map(project => <Project key={project.title} project={project} />)}
             </div>
