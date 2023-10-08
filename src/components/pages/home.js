@@ -11,7 +11,8 @@ const HomePage = ({instagram, linkedin, github}) => {
         "Sequelize", "HTML5", "CSS3", "GitHub", "Figma", "Miro", "AutoDesk",
         "ChatGpt", "RestFul API", "Windows", "MAC", "Linux", "Java", "Docker",
         "Python", "PWA", "Graph-QL", "Apollo Server", "Webpack", "GSAP", 
-        "GoogleWorkbox", "NodeMailer", "UUID", "Mailgun", "Palm2", "Multer","Emailjs"
+        "GoogleWorkbox", "NodeMailer", "UUID", "Mailgun", "Palm2", "Multer","Emailjs",
+        "Vite", "Handlebars", "Flask", "Jinja", "Mysqlalchemy"
     ];
 
     const getIconForSkill = (skill) => {
@@ -89,9 +90,19 @@ const HomePage = ({instagram, linkedin, github}) => {
             case "Palm2":
                 return <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsZn2xhHdwIlBoiEt00eMqXeSuNBzq-3q9yEAaXmrY6SSf7UNIycFxlu_4XlauPAsSR_c&usqp=CAU" alt="Palm2" className="skill-icon"/>;
             case "Multer":
-                return <img src="https://www.riafan.com/uploads/icons/upload-multer.svg" alt="Multer" className='skill-icon'/>
+                return <img src="https://miro.medium.com/v2/resize:fit:1358/1*QTZvtnHWanNxBQBynhtlIA.png" alt="Multer" className='skill-icon'/>
             case "Emailjs":
-                return <img src="https://blog.openreplay.com/images/sending-emails-from-react-with-emailjs/images/hero.png" alt="Multer" className='skill-icon'/>
+                return <img src="https://blog.openreplay.com/images/sending-emails-from-react-with-emailjs/images/hero.png" alt="EmailJS" className='skill-icon'/>
+            case "Vite":
+                return <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" alt="Vite" className='skill-icon'/>
+            case "Flask":
+                return <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/640px-Flask_logo.svg.png" alt="Flask" className='skill-icon'/>
+            case "Jinja":
+                return <img src="https://jinja.palletsprojects.com/en/3.1.x/_images/jinja-logo.png" alt="Jinja" className='skill-icon'/>
+            case "Mysqlalchemy":
+                return <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/SQLAlchemy.svg/640px-SQLAlchemy.svg.png" alt="EmailJS" className='skill-icon'/>
+            case "Handlebars":
+                return <img src="https://handlebarsjs.com/images/handlebars_logo.png" alt="Handlebars" className='skill-icon'/>
             default:
                 return null;
 

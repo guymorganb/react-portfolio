@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import CMA from '../../assets/CMA.png'
 import petSearch from '../../assets/pet-search.png'
-import NWE from '../../assets/Notes_with_Express.png'
-import WAPI from '../../assets/WeatherApp.png'
+import PWA from '../../assets/PWA.png'
+import RRX from '../../assets/RRX.png'
 import techBlog from '../../assets/techBlog.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShareNodes, faHeart } from '@fortawesome/free-solid-svg-icons';
@@ -14,29 +14,22 @@ const projects = [
         title: "The Tech Blog",
         url: "https://cms-styleblog-b43fd1e13c1e.herokuapp.com/",
         description: "Blog that authenticates users, & allows profile interaction",
-        techStack: "BootstrapCSS/Express/Handlebars/Heroku/HTML/Javascript/JawsDB/MySQL2/MySQL Workbench/Node.js/Sequelize/UUID",
+        techStack: "BootstrapCSS,Express,Express-Handlebars,Heroku,HTML,Javascript,JawsDB,MySQL2,Node,Sequelize,UUID",
         image: techBlog
     },
     {
-        title: "Weather API",
-        url: "https://guymorganb.github.io/Weather_App/",
-        description: "Responsive Weather App.",
-        techStack: "jQuery/JavaScript/API's/BootStrap",
-        image: WAPI
+        title: "RecoverRx Massage-Spa",
+        url: "https://stark-eyrie-30974-cec0733bf8b2.herokuapp.com/",
+        description: "Fullstack Website For a local business providing massage",
+        techStack: "React,Vite,GraphQL-Apollo,Express,JavaScript,Chakra-UI",
+        image: RRX
     },
     { 
-        title: "Notes with Express",
-        url: "https://notes-with-express-0330a20c1e26.herokuapp.com/",
-        description: "Web App deployment with express backend",
-        techStack: "Express.js/Node.js/Tailwind CSS/Heroku/jQuery/CRD ops",
-        image: NWE
-    },
-    { 
-        title: "Pet Search",
-        url: "https://guymorganb.github.io/Pet-Search/",
-        description: "Search animals for adoption/Use ChatGPT",
-        techStack: "JavaScript/API's/ChatGPT Prompting/Pagination/Bootstrap",
-        image: petSearch
+        title: "Jate Text Editor",
+        url: "https://pwa-editor-text-23103ec48792.herokuapp.com/",
+        description: "Progressive web app text editor",
+        techStack: "JavaScript,Express,Node,Webpack,Heroku,IndexDB",
+        image: PWA
     },
     { 
         title: "Center for Mycological Analytics",
