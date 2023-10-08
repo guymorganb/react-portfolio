@@ -1,8 +1,8 @@
 import './App.css'
 import logo from '../logo.svg'
-import Navbar from './navbar';
-import Content from './content';
-import Footer from './footer';
+import Navbar from '../components/pages/navbar';
+import Content from '../components/pages/content';
+import Footer from '../components/pages/footer';
 import React, {useState} from 'react';
 
 

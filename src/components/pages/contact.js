@@ -29,7 +29,6 @@ function Contact() {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        setLoading(true);
         const emailPattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b/;
         let errorMsgs = [];
 
@@ -37,7 +36,7 @@ function Contact() {
             errorMsgs.push("Please enter a valid email address.");
         }
         if (!comment) {
-            errorMsgs.push("Please enter a valid comment.");
+            errorMsgs.push("Please enter a comment.");
         }
         if(errorMsgs.length){
             setErrors(errorMsgs);
@@ -53,12 +52,17 @@ function Contact() {
         };
 
         try {
+            
             const response = await emailjs.send('service_gvf31oy', 'template_z7rig0g', templateParams, '6LB0K-SK5llKtCruJ')
+
             if (response.status === 200) {
-                setLoading(false);
-                errorMsgs.push("Message sent successfully!");
+                setLoading(true);
+                setTimeout(() => {
+                    errorMsgs.push("Message sent successfully!");
+                    setLoading(false);
+                    setEmail(''); setPhone(''); setComment(''); setErrors([]);
+                }, 1750);
             } else {
-                setLoading(false);
                 errorMsgs.push("Server Error.");
             }
         } catch (err) {
@@ -76,11 +80,11 @@ function Contact() {
                     <form id="typebox" onSubmit={handleSubmit}>
                     <div>
                         {/* spinner for loading */}
-                        {loading && (
-        <div className="spinner-container">
-            <div className="spinner"></div>
-        </div>
-    )}
+                    {loading && (
+                        <div className="spinner-container">
+                            <div className="spinner"></div>
+                        </div>
+                    )}
                         {/* error messages */}
                         {errors.length > 0 && (<ul className="messages">{errors.map((error, index) => (<li key={index} className="error-text">{error}</li>))}</ul>)}
                     </div>

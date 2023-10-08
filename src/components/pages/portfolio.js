@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import CMA from '../assets/CMA.png'
-import petSearch from '../assets/pet-search.png'
-import NWE from '../assets/Notes_with_Express.png'
-import WAPI from '../assets/WeatherApp.png'
-import techBlog from '../assets/techBlog.png'
+import CMA from '../../assets/CMA.png'
+import petSearch from '../../assets/pet-search.png'
+import NWE from '../../assets/Notes_with_Express.png'
+import WAPI from '../../assets/WeatherApp.png'
+import techBlog from '../../assets/techBlog.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShareNodes, faHeart } from '@fortawesome/free-solid-svg-icons';
 
