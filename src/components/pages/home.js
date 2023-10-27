@@ -120,9 +120,9 @@ const HomePage = ({instagram, linkedin, github}) => {
             <div className="card-container max-w-xl w-full bg-white p-6 rounded-lg shadow-md mb-10">
                 <span className="pro block text-sm mb-2"></span>
                 <img className="rounded w-40 h-32 mx-auto mb-4" src={profileImage} alt="guy beals" />
-                <h3 className="text-center text-2xl font-bold mb-1">Guy Beals</h3>
+                <h3 className="text-center text-2xl font-bold mb-1">Guy Morgan B</h3>
                 <h6 className="text-center text-sm text-gray-500 mb-4">Colorado Native</h6>
-                <p className="text-center text-gray-700 mb-4">CS Student 🎓 entrapanuer 📈 human 👤 son 👪 brother 👪 lover of learning 🌎. Despite calculus ∫∫ and physics λ, still believes in magic ✨<br />aspiring full-stack developer</p>
+                <p className="text-center text-gray-700 mb-4">CS Student 🎓 Innovator 📈 human 👤 son 👪 brother 👪 lover of learning 🌎. Despite leaning Calculus ∫∫ and Differential Equations λ, still believes in magic ✨ full-stack developer</p>
                 <div className="flex justify-center space-x-4 mb-6">
                 <a className="primary rounded text-white icon" href={instagram} target="_blank" rel="noopener noreferrer">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram Logo" className="icon-image w-11 h-11 " />
