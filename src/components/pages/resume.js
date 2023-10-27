@@ -2,7 +2,7 @@ import React, {  useEffect, useRef } from 'react';
 import logo from '../../logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
-import resume from "../../assets/WebDeveloper_EngineerIntern.docx.pdf"
+import resume from "../../assets/WebDeveloper_EngineerIntern.docx.pdf.pdf"
 import gsap from "gsap";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 gsap.registerPlugin(MotionPathPlugin);
