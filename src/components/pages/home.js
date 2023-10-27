@@ -3,7 +3,6 @@ import profileImage from '../../assets/Third.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
-
 const HomePage = ({instagram, linkedin, github}) => {
     const skills = [
         "JavaScript ES6+", "jQuery", "Nodejs", "Expressjs", "Bootstrap", 
