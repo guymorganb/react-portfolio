@@ -17,7 +17,7 @@ const projects = [
         title: "Python-Fullstack-TechNews",
         url: "https://lit-peak-52472-1a68e5bb8b71.herokuapp.com/",
         description: "Fullstack Python Tech news blog",
-        techStack: "Python, JavaScript, Flask, Mysqalchemy, RestFUL, Sessions, Jinja, GitHub",
+        techStack: "Python, JavaScript, Flask, Mysqlalchemy, RestFUL, Sessions, Jinja, GitHub",
         image: python
     },
     { 

@@ -12,7 +12,8 @@ const HomePage = ({instagram, linkedin, github}) => {
         "ChatGpt", "RestFul API", "Windows", "MAC", "Linux", "Java", "Docker",
         "Python", "PWA", "Graph-QL", "Apollo Server", "Webpack", "GSAP", 
         "GoogleWorkbox", "NodeMailer", "UUID", "Mailgun", "Palm2", "Multer","Emailjs",
-        "Vite", "Handlebars", "Flask", "Jinja", "Mysqlalchemy"
+        "Vite", "Handlebars", "Flask", "Jinja", "Mysqlalchemy", "Terraform", "AWS",
+        "MINIO"
     ];
 
     const getIconForSkill = (skill) => {
@@ -103,9 +104,15 @@ const HomePage = ({instagram, linkedin, github}) => {
                 return <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/SQLAlchemy.svg/640px-SQLAlchemy.svg.png" alt="EmailJS" className='skill-icon'/>
             case "Handlebars":
                 return <img src="https://handlebarsjs.com/images/handlebars_logo.png" alt="Handlebars" className='skill-icon'/>
+            case "Terraform":
+                return <img src="https://commons.wikimedia.org/wiki/File:Terraform_Logo.svg" alt="Terraform" className='skill-icon'/>
+            case "AWS":
+                return <img src="https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_Logo.svg" alt="AmazonWebServices" className='skill-icon'/>
+            case "MINIO":
+                return <img src="https://infraops.info/content/images/2020/12/minio-logo.png" alt="MINIO" className='skill-icon'/>
             default:
                 return null;
-
+                
         }
     }
     
