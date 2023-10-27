@@ -37,7 +37,7 @@ const projects = [
     {
         title: "RecoverRx Massage-Spa",
         url: "https://stark-eyrie-30974-cec0733bf8b2.herokuapp.com/",
-        description: "Fullstack ReactJS Website For a local business providing massage",
+        description: "Fullstack ReactJS Website For a local business providing massage, contains admin panel accesible after login, click the contact button above and shoot me a message and Ill share the credentials",
         techStack: "React, Vite, GraphQL-Apollo, Express, JavaScript, Chakra-UI",
         image: RRX
     },
@@ -58,7 +58,7 @@ const projects = [
     { 
         title: "Center for Mycological Analytics",
         url: "https://center-mycological-analytics-3e13791937a3.herokuapp.com/",
-        description: "Fullstack Website redesign for the Center for Mycological Analytics",
+        description: "Fullstack Website redesign for the Center for Mycological Analytics, allows student to login and create their accounts to manage courses and financials, MVP only",
         techStack: "Bootstrap, CSS, Express, Express-Handlebars, Handlebars, RestFUL, Javascript, Mailgun, Multer, MySQL2, Node.js, Nodemail, Sequelize, Short ID, UUID",
         image: CMA
     },
