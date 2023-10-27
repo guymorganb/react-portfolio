@@ -105,9 +105,9 @@ const HomePage = ({instagram, linkedin, github}) => {
             case "Handlebars":
                 return <img src="https://handlebarsjs.com/images/handlebars_logo.png" alt="Handlebars" className='skill-icon'/>
             case "Terraform":
-                return <img src="https://commons.wikimedia.org/wiki/File:Terraform_Logo.svg" alt="Terraform" className='skill-icon'/>
+                return <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg" alt="Terraform" className='skill-icon'/>
             case "AWS":
-                return <img src="https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_Logo.svg" alt="AmazonWebServices" className='skill-icon'/>
+                return <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AmazonWebServices" className='skill-icon'/>
             case "MINIO":
                 return <img src="https://infraops.info/content/images/2020/12/minio-logo.png" alt="MINIO" className='skill-icon'/>
             default:
