@@ -2,7 +2,7 @@ import React, {  useEffect, useRef } from 'react';
 import logo from '../../logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
-import resume from "../../assets/WebDeveloper_EngineerIntern.docx.pdf.pdf"
+import resume from "../../assets/ITApplicationManagerResume.pdf"
 import gsap from "gsap";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 gsap.registerPlugin(MotionPathPlugin);
@@ -95,11 +95,11 @@ const ResumePage = () => {
         <div className="resume-page flex flex-col items-center justify-center min-h-screen bg-beige p-6">
             <h1 className="resumeText opacity-0 text-3xl font-bold mb-8 text-dark">My Resume</h1>
 
-            <button 
+            {/* <button 
                 className="start-spinning-button p-4 rounded-full mb-6 bg-blue-500 text-white"
                 onClick={startSpinning}>
                 Spin
-            </button>
+            </button> */}
     
             <button 
                 onClick={() => window.open(resumeLink, "_blank")} 

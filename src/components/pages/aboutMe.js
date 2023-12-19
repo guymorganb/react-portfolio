@@ -39,52 +39,50 @@ export default function AboutMe(){
             <div className="p">
             <p></p>
             <ol>
-            Over the course of my career, I've sought to hone a diverse skill set encompassing exceptional teamwork, structured problem-solving, collaboration across work domains, and technical expertise. While my previous roles have provided me with a firm foundation, my deep-rooted passion for science and technology is the inspiration for my journey, so I've whittled away at it demonstrating the value of a diverse background.
+            Throughout my career, I've consistently sought to develop a multifaceted skill set, encompassing teamwork, problem-solving, and cross-domain collaboration, paired with deep technical expertise. My journey, fueled by a passion for science and technology, has been marked by the continuous pursuit of diverse experiences and learning opportunities.
             </ol>
             <br />
             <ol>
-            Early on as a Manager for a small automotive business I was able to hone my soft skills, and relationship building, while simultaneously being exposed to large clients such as Chevrolet, BMW, Nissan and Ford. I learned the importance of being attentive to details, working with and communicating with diverse stakeholders from the corporate office, all the way down to the individual worker. I helped this small business increase annual revenue by over $2M.
+            As a Manager in a small automotive business, I honed my soft skills and excelled in relationship building, engaging with major clients like Chevrolet, BMW, Nissan, and Ford. This role sharpened my attention to detail and communication skills across various levels, from corporate offices to front-line workers, contributing to a significant $2M annual revenue increase.
             </ol>
             <br />
             <ol>
-            My hunger for growth continued so I formed a start-up which allowed me to also continue my college education. Running my own start-up was transformative, and showed me aspects of myself I never knew. Primarily, my commitment to excellence, the quickness and efficiency at which I’m able to learn complex things and find high quality solutions to bewildering problems. These abilities shined and my business grew. This role helped me progress in my college curriculum, but eventually the demands had also cost me the ability to attend college creating a divergence from my primary goals of honing myself.  
+            Driven by a thirst for growth, I launched my own startup while continuing my college education. This transformative experience revealed my commitment to excellence, rapid learning abilities, and proficiency in solving complex problems, leading to substantial business growth. However, balancing entrepreneurship and education led to a temporary divergence from my academic aspirations.
             </ol>
             <br />
             <ol>
-            After this divergence, I took necessary steps and joined up with a Mortgage Bank, here I was able to expand my skill set of working with a team in a remote environment and expand my focus through meticulously auditing tax documents and analyzing financial data.
+            My tenure at a Mortgage Bank further expanded my skill set, particularly in remote teamwork, meticulous auditing of tax documents, and financial data analysis, enhancing my understanding of complex financial operations.
             </ol>
             <br />
             <ol>
-            Since that time I’ve progressed further, through continuing education and online certifications, continuing my accumulation of college credits and certifications, I have been working as a freelance developer. Continuously devloping a skill set with the coding languages of Java, JavaScript, Python as well as full-stack web development, and Data Structures & Algorithms. I have also delved into database deployment and I’m currently immersed in the process of learning how to fine-tune Large Language Models and looking forward to my upcoming courses in distributed systems from Deft University of Technology. 
+            My progression continued with ongoing education, online certifications, and freelance development work and continued training and development. I've deepened my expertise in Java, JavaScript, Python, full-stack web development, IT Managment and Cloud technologies
             </ol>
             <br />
             <ol>
-            I thrive in dynamic, fast-paced environments and readily embrace challenges as opportunities for personal and professional growth. My ability to adapt quickly, drive solutions to complex problems and my innate work energy bring an X-factor that distinguishes me among my peers. 
-            
-            In addition to being certified in full stack web development from the University of Denver, Im a junior CS student with Florida Intenational University, I hold regular meetups in the metro area near my home and regualrly engage in code reviews with my peers, help teach what Ive learned to others and keep myself maluable to engage continuous learning.
-
+            I excel in dynamic, fast-paced settings, embracing challenges as opportunities for personal and professional growth. My ability to manage change and solution-driven approach to complex problems distinguish me.
+            In addition to my full stack web development certification from the University of Denver, I am a junior Computer Science student at Florida International University. I actively engage in the local tech community through meetups, peer code reviews, and teaching, underscoring my commitment to continuous learning and collaboration.
             </ol>
             <br />
             <div className="h2lower">
             <b>
-            <h2>Soft Skills</h2>
+            <h2>Leadership & Project Management</h2>
             </b>
             </div>
             <ol>
-            ⭐ **Client-Centric Collaboration:** Drawing from my foundational background, I've mastered the art of exacting client requirements within required timeframes. This enables me to grasp clients' objectives but also navigate intricate challenges, resulting in solutions that surpass expectations.
+            ⭐ Strategic IT Project Leadership: Demonstrated proficiency in leading IT projects from conception to deployment, leveraging skills in cloud infrastructure, web development, and full-stack technologies. My experience as a freelance developer involved orchestrating complex projects, ensuring alignment with technical requirements and client objectives.
             </ol>
             <br></br>
             <ol>
-            ⭐ **Interpersonal Proficiency:** Cultivating relationships with colleagues is a cornerstone of my professional ethos. Through fostering open communication and nurturing mutual respect, I create an environment conducive to streamlined collaboration and the achievement of remarkable solutions.
+            ⭐ Team Development and Mentorship: As a founder and business leader, I excelled in building, guiding, and mentoring teams, driving them towards achieving significant business goals, including substantial revenue growth. My leadership style fosters a culture of continuous learning and improvement.
             </ol>
             <br></br>
-            <ol>⭐ **Pursuit of excellence:** The pursuit of excellence defines my professional trajectory. By setting and exceeding standards for myself and my peers, I cultivate a culture of continuous enhancement and commitment to delivering exceptional results.</ol>
+            <ol>⭐ Cross-Functional Team Coordination: Experienced in managing cross-functional teams and liaising between various stakeholders, as evidenced in my role in the automotive industry and security at Amazon. I effectively balanced and integrated diverse team efforts to enhance operational efficiency and compliance.</ol>
             <br></br>
-            <ol> ⭐ **Catalyst for Growth and Innovation:** My propensity for fostering personal and professional advancement fuels curiosity and innovation by challenging myself and inspiring others.</ol>
+            <ol> ⭐ Client Relationship Management: Skilled in cultivating and managing client relationships across different industries. My background in freelance development and business management has honed my ability to understand and meet client needs, leading to successful project outcomes and client satisfaction.</ol>
             <br></br>
-            <ol> ⭐ **Reliability and Adherence:** My commitment to project deadlines is stedfast, approaching each commitment with dedicated resolve to ensure on-time and on-target delivery.</ol>
+            <ol> ⭐ Adaptability in Dynamic Environments: Proven ability to adapt to changing project demands and technological landscapes, maintaining project momentum and ensuring timely delivery.</ol>
             <br></br>
-            <ol>⭐ **Resilience and Problem Solving:** Confronting challenges with a blend of inquisitiveness, humility, and resolve, I analyze issues from multiple angles. This approach allows me to leverage problem-solving to engineer creative resolutions, persistently driving toward success.</ol>
+            <ol>⭐ Effective Communication and Collaboration: My professional journey underscores my ability to communicate effectively with team members, clients, and stakeholders, facilitating clear understanding and collaborative efforts towards common goals.</ol>
             <p />
             </div>
         </div>

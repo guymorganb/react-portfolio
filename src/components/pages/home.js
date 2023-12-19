@@ -122,7 +122,7 @@ const HomePage = ({instagram, linkedin, github}) => {
                 <img className="rounded w-40 h-32 mx-auto mb-4" src={profileImage} alt="guy beals" />
                 <h3 className="text-center text-2xl font-bold mb-1">Guy Morgan B</h3>
                 <h6 className="text-center text-sm text-gray-500 mb-4">Colorado Native</h6>
-                <p className="text-center text-gray-700 mb-4">CS Student 🎓 Innovator 📈 human 👤 son 👪 brother 👪 lover of learning 🌎. Despite leaning Calculus ∫∫ and Differential Equations λ, still believes in magic ✨ full-stack developer</p>
+                <p className="text-center text-gray-700 mb-4">Leader 🎓  👪 brother 👪 Driven by constant growth 🌎. Lover of Calculus ∫∫ and Statistics σ, currently freelancing ✨ full-stack developer</p>
                 <div className="flex justify-center space-x-4 mb-6">
                 <a className="primary rounded text-white icon" href={instagram} target="_blank" rel="noopener noreferrer">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram Logo" className="icon-image w-11 h-11 " />
@@ -135,7 +135,7 @@ const HomePage = ({instagram, linkedin, github}) => {
                 </a>
                 </div>
                 <div className="skills">
-                    <h6 className="text-xl font-bold mb-4">Projects I've created in the past have used:</h6>
+                    <h6 className="text-xl font-bold mb-4">I have familiarity with these technologies:</h6>
                     <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
                         {skills.map(skill => (
                             <li key={skill} title={skill} className="text-gray-700 py-1 px-2 rounded bg-gray-200 hover:bg-gray-300 transition duration-300 flex items-center space-x-2">
