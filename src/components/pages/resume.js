@@ -10,7 +10,7 @@ const svgPath = "M 193 368 A 200 168 0 1 1 194 368"
 const svgPath2 = "M 200 32 A 200 168 0 1 1 199 32"
 
 const ResumePage = () => {
-    const resumeLink = "https://docs.google.com/document/d/1-Jeezp5JYBiuO8-xY32_9y_rn3sgl9bR/edit?usp=sharing&ouid=102883667238096375202&rtpof=true&sd=true"; // Replace with your Google Docs resume link
+    const resumeLink = "https://docs.google.com/document/d/1bYZrKqUQAq82dtTJdqj6isBBE59WO0dK/edit?usp=sharing&ouid=102883667238096375202&rtpof=true&sd=true"; // Replace with your Google Docs resume link
     const spinTL1 = useRef(null);
     const spinTL2 = useRef(null);
     useEffect(() => {
